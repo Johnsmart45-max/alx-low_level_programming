@@ -1,17 +1,25 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- *
+ *  * main - print single digit numbers
+ * Descripton: print single digit numbers
  * Return: Always 0 (Success)
  */
+
+
 int main(void)
 {
-int r;
+	int i;
 
-for (r = 0; r <= 9; r++)
-{
-printf("%d", r);
-}
-printf("\n");
-return (0);
+	i = 48;
+
+	while (i < 58)
+	{
+		putchar(i);
+		i++;
+	}
+
+	putchar(10);
+
+	return (0);
 }

@@ -1,26 +1,24 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
-  * print_rev - prints string
-  * @s: input string
-  * Return: no return
+ * print_rev - prints string backwards
+ * @s: string
+ * Return: void
  */
 
 void print_rev(char *s)
 {
-	int count = 0;
+	int i = 0;
 
-	while (*s != '\0')
+	while (s[i] != '\0')
 	{
-		s++;
-		count++;
+		i++;
 	}
-
-	while (count > 0)
+	i--;
+	while (i >= 0)
 	{
-		s--;
-		_putchar(*s);
-		count--;
+		_putchar(s[i]);
+		i--;
 	}
 	_putchar('\n');
 }

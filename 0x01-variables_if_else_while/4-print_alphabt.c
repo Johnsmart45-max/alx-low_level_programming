@@ -1,27 +1,24 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- *
+ * main - print the letters of the alphabet
+ * Description: print the letters of the alphabet except e, q
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-int y;
+	int i = 97;
 
-for (y = 97; y <= 122; y++)
-{
-<<<<<<< HEAD
-       if (m == 101 || m == 113)
-=======
-if (y == 101 || y == 113)
->>>>>>> c38d008b18676f16774155151031a0fcc1c46752
-{
-}
-else
-{
-putchar(y);
-}
-}
-putchar('\n');
-return (0);
+	while (i < 123)
+	{
+		if (i != 101 && i != 113)
+		{
+			putchar(i);
+		}
+		i++;
+											}
+	putchar(10);
+
+	return (0);
 }

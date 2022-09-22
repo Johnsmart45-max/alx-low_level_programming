@@ -1,22 +1,25 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - print possible combination 0-9
+ * Return: zero
  */
+
 int main(void)
 {
-int k;
+	int i;
 
-for (k = 48; k <= 57; k++)
-{
-putchar(k);
-if (k < 57)
-{
-putchar(',');
-putchar(' ');
-}
-}
-putchar('\n');
-return (0);
+
+	for (i = '0'; i <= '9'; i++)
+	{
+		putchar(i);
+		if (i == '9')
+			break;
+		putchar(',');
+		putchar(' ');
+	}
+	putchar('\n');
+
+	return (0);
+
 }

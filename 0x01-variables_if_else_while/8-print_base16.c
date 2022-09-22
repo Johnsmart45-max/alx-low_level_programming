@@ -1,21 +1,27 @@
 #include <stdio.h>
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-int z;
 
-for (z = 48; z <= 57; z++)
+
+
+/**
+ * main - print hexadecimal numbers in lowercase
+ * Return: zer
+ */
+
+int main(void)
+
 {
-putchar(z);
-}
-for (z = 97; z <= 102;z++)
-{
-putchar(z)
-}
-putchar('\n');
-return (0);
+	int i;
+	int ch;
+
+	for (i = '0'; i <= '9'; i++)
+
+		putchar(i);
+
+	for (ch = 'a'; ch <= 'f'; ch++)
+
+		putchar(ch);
+
+	putchar('\n');
+	return (0);
+
 }

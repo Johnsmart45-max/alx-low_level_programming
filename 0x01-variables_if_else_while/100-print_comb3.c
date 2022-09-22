@@ -1,35 +1,48 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- *
+ * main - print double digit combos
+ * Description: print double digit combo
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-int x, y;
 
-for (x = 48; x <= 57; x++)
+
+
+int main(void)
+
 {
-for (y = 48; y <= 57; y++)
-{
-if (x == y || y <= x)
-{
-}
-else
-{
-putchar(x);
-putchar(y);
-if (x == 56 && y == 57)
-{
-}
-else
-{
-putchar(44);
-putchar(' ');
-}
-}
-}
-}
-putchar('\n');
-return (0);
+
+	int i, j;
+
+	i = 48;
+
+	j = 48;
+
+
+	while (i < 58)
+	{
+		j = i + 1;
+		while (j < 58)
+		{
+			putchar(i);
+			putchar(j);
+			if (i < 56 || j < 57)
+			{
+				putchar(44);
+
+				putchar(32);
+
+			}
+			j++;
+		}
+
+
+
+		i++;
+	}
+
+
+	putchar(10);
+	return (0);
+
 }
