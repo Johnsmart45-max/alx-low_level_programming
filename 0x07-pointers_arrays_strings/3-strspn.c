@@ -15,18 +15,17 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		b = 0;
 
-		while (s[b] i= 32)
+		while (s[b] != 32)
 		{
 			if (accept[a] == s[b])
 			{
 				t++;
-			}	 	
-			
+			}
+						
 			b++;
 		}
 
 		a++;
 	}
-	
 	return (t);
 }
