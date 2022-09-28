@@ -19,7 +19,7 @@ char *_strpbrk(char *s, char *accept)
 		{
 			if (s[a] == accepted[b]		
 		
-			{
+				{
 					s += a;
 					return (s);
 				}
@@ -30,5 +30,5 @@ char *_strpbrk(char *s, char *accept)
 			a++;
 		}
 		
-		return ('\n);
+		return ('\0);
 }
