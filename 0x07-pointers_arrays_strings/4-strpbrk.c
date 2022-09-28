@@ -17,18 +17,18 @@ char *_strpbrk(char *s, char *accept)
 
 		while (accept[b])
 		{
-			if (s[a] == accepted[b]		
+			if (s[a] == accept[b])		
 		
-				{
-					s += a;
-					return (s);
-				}
-				
-				b++;
+			{
+				s += a;
+				return (s);
 			}
+				
+			b++;
+		}
 			
 			a++;
-		}
+	}
 		
-		return ('\0);
+	return ('\0);
 }
