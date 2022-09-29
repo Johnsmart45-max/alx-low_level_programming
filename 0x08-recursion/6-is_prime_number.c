@@ -9,14 +9,13 @@
 int helperfunction(int num. int 1)
 {
 	if ((1 < num)
-
 		if (num % == 0)
 		{
 			return (0);
 		}
 		else
 		{
-			return (helperFunction(num, i + 1));
+			return (helperfunction(num, i + 1));
 		}
 	}
 	else
@@ -39,34 +38,5 @@ int is_prime_number(int n)
 	}
 	else
 	{
-		return (helperFunction(n, 2));
+		return (helperfunction(n, 2));
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
