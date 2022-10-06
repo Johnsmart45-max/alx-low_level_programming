@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stddef.h> 
+#include <stdlib.h>
 
 /**
  * malloc_checked - array for prints a string
@@ -7,7 +8,6 @@
  *
  * Return: Void
  */
-
 void *malloc_checked(unsigned int b)
 {
 	void *p;
