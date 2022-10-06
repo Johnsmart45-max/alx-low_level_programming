@@ -1,9 +1,9 @@
 #include "main_h"
 
 /**
- *_calloc - allocated memory for nmemb an array of nmemb elements of size bytes
- *@nmemb: number of elements in the array 
- *
+ *_calloc - allocated memory for nmemb elements of size bytes
+ *@nmemb: number of elements in the array
+ *@size: bytes for each position in array 
  *Return: void pointer
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
