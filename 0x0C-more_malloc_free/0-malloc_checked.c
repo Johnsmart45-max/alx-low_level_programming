@@ -4,7 +4,7 @@
  *malloc_checked - array for prints a string
  *@b: number of memory
  *
- *Return: Void
+ *Return: void
  */
 void *malloc_checked(unsigned int b)
 {
