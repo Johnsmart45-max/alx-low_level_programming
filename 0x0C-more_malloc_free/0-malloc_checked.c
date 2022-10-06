@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * malloc_checked - allocates memory using malloc
- * @b: memory to allocate
+ * malloc_checked - allocates memory
+ * @b: the size to allocate
  *
- * Return: pointer to allocated memory or normal process termination if error
+ * Return: Nothing.
  */
 void *malloc_checked(unsigned int b)
 {
@@ -15,5 +15,6 @@ void *malloc_checked(unsigned int b)
 	p = malloc(b);
 	if (p == NULL)
 		exit(98);
+	
 	return (p);
 }
