@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * malloc_checked - allocates memory
- * @b: the size to allocate
+ * malloc_checked - array for prints a string
+ * @b: number of memory
  *
- * Return: Nothing.
+ * Return: Void
  */
 void *malloc_checked(unsigned int b)
 {
