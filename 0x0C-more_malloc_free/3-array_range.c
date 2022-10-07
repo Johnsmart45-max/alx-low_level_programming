@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * array_range - creates an array of integers.
+ * array_range - creates an array of integers
  * @min: first inter number
  * @max: last integer number
  * Return: pointer to newly allocated memory or NULL fails
@@ -21,6 +21,5 @@ int *array_range(int min, int max)
 	{
 		a[i] = min;
 	}
-	
-	return (a);
+		return (a);
 }
