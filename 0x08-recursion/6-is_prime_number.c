@@ -8,7 +8,6 @@ int tmp_prime(int n, int i);
  * @m: integer params
  * Return: boolean
  */
-
 int divisors(int n, int m)
 {
 	if (m % n == 0)
