@@ -3,7 +3,7 @@
 /**
  *_calloc - allocated memory for nmemb elements of size bytes
  *@nmemb: number of elements in the array
- *@size: bytes for each position in array 
+ *@size: bytes for each position in array
  *Return: pointer void
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
