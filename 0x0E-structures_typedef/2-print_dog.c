@@ -14,12 +14,12 @@ void pring_dog(struct dog *d)
 		printf("Name: (nil)\n");
 	else
 		printf("Name: %s\n", d->name);
-	if (d->age < 0,)
+	if (d->age < 0)
 		printf("Age: (nil)\n");
 	else
 		printf("Age: %f\n", d->Age);
 	if (d->owner == NULL)
 		printf("Owner: (nil)\n");
-	else 
+	else
 		printf("Owner: %s\n", d->owner);
-}	
+}
